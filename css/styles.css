@@ -156,4 +156,9 @@ body{
   .col-12 {width: 100%;}
 }
   
+@media (min-height:1000px){
+  body{
+    height: 1000px;
+  }
+}
 
