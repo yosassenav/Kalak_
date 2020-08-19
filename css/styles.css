@@ -27,16 +27,9 @@ body{
   min-width: 300px;
   align-items: center;
 }
-#left {
-  width: 40%;
-  float: left;
-  align-self: inherit;
-}
-#right {
-  width: 40%;
-  float: right;
-  align-self: inherit;
-}
+
+
+
 
 /*@media only screen and (min-height:5000em){
   body{
@@ -50,43 +43,89 @@ body{
   height: 100%;
 }
 
-@media only screen and (min-width: 600px) {
+@media only screen and (min-width: 600px){
   /* For tablets: */
-  
+  .bg{
+    background-size: cover;
+  }
   
 }
 
 @media only screen and (min-width: 768px) {
   /* For desktop: */
-
+  .left {
+    width: 40%;
+    float: left;
+    align-self: inherit;
+  }
+  .right {
+    width: 40%;
+    float: right;
+    align-self: inherit;
+  }
 } 
 
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
+  .bg{
+    background-size: cover;
+  }
+}
 
-  
+@media only screen and (orientation: portrait){
+  .bg{
+    background-size: cover;
+  }
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
-@media only screen and (min-width: 600px) {
-
-  
+@media only screen and (min-width: 300px) {
+  .bg{
+    background-size: cover;
+  }
 }
 
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 768px) {
-
+  .left {
+    width: 40%;
+    float: left;
+    align-self: inherit;
+  }
+  .right {
+    width: 40%;
+    float: right;
+    align-self: inherit;
+  }
   
 } 
 
 /* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (min-width: 992px) {
- 
+  .left {
+    width: 40%;
+    float: left;
+    align-self: inherit;
+  }
+  .right {
+    width: 40%;
+    float: right;
+    align-self: inherit;
+  }
 } 
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 @media only screen and (min-width: 1200px) {
-  
+  .left {
+    width: 40%;
+    float: left;
+    align-self: inherit;
+  }
+  .right {
+    width: 40%;
+    float: right;
+    align-self: inherit;
+  }
 }
   
 
