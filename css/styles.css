@@ -85,6 +85,21 @@ body{
   }
 }
 
+/* phones with landscape orientation*/
+@media only screen and (orientation: landscape){
+  .left {
+    width: 40%;
+    float: left;
+    align-self: inherit;
+  }
+  .right {
+    width: 40%;
+    float: right;
+    align-self: inherit;
+  }
+}
+
+
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 768px) {
   .left {
