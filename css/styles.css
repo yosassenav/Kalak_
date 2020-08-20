@@ -142,5 +142,33 @@ body{
     align-self: inherit;
   }
 }
-  
 
+/*Specific iPad resolution*/
+@media only screen and (min-width:768px) and (min-height:1024px){
+  body{
+    height: 1024px;
+    font-size: 3rem !important;
+  }
+
+  .logo-kalak{
+    width: 100%;
+    height: 100%;
+  }
+
+  .btn{
+    font-size: 1.5rem;
+    margin-left: -10%;
+  }
+}
+
+/*Specific iPad Pro resolution*/
+@media only screen and (min-width:1024px) and (min-height:1366px){
+  body{
+    height: 1366px;
+  }
+
+  .btn{
+    font-size: 2rem;
+    margin-left: -10%;
+  }
+}
