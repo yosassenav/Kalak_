@@ -9,6 +9,14 @@
     border-color:  #f0580d;
 }
 
+a:link{
+  color: black;
+}
+
+a:visited{
+  color: blue;
+}
+
 body{
   background-image: url(../img/fondo.jpg);
   height: 750px;
